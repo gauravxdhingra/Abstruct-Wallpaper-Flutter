@@ -34,6 +34,7 @@ class _FetchState extends State<Fetch> {
   //List<String> list = List();
   String img = "";
   String txt = "";
+  
   void _getData() async {
     final response =
         await http.get('https://wallpaperscraft.com/all/1080x1920/');
